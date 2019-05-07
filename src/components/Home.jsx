@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./css/Home.css";
+import Kai from "./images/pp.jpg";
 
 export default class Home extends Component {
     render() {
       return (
         <div className="Home">
           <div className="lander">
-            <h1>Scratch</h1>
-            <p>A simple note taking app</p>
+            <h1>Matelijke guys</h1>
+            <img src={Kai} alt={""}/>
           </div>
         </div>
       );

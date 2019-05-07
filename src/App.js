@@ -19,6 +19,10 @@ class App extends Component {
           <Navbar.Collapse>
             <Nav pullRight>
 
+              <LinkContainer to="/members">
+                <NavItem>Leden</NavItem>
+              </LinkContainer>
+
               <LinkContainer to="/signup">
                 <NavItem>Signup</NavItem>
               </LinkContainer>
